@@ -20,4 +20,7 @@ def cat_fact():
 
 # Run the Flask app
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+    import os
+    port = int(os.environ.get("PORT", 5000))  # Heroku provides the port
+    app.run(host='0.0.0.0', port=port)
+
