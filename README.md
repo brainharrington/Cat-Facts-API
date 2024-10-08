@@ -6,6 +6,8 @@ For testing I am learning how to hit the cat facts free api from a custom gpt. I
 
 I'm focusing on Python as my first language. I'm using a free account on Replit for testing and iteration. I'm then pushing the code to github for storage and deploying on Heroku which I think will be free. If Heroku ends up not being free then I'm going to upgrade Replit and just do it all there.
 
-So far the only paid tool is $20/mo for chatGPT.
+So far the paid tools are $20/mo for chatGPT and $0.01/hr for Heroku.
 
-I'm using Flask to create an API that fetches random cat facts.
+Visit https://cat-facts-api-3820918c389a.herokuapp.com/catfact to see the public endpoint.
+
+Visit https://chatgpt.com/g/g-CZl3NDsoz-cat-fact-gpt to see the custom GPT.
